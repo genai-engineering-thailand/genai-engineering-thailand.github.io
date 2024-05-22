@@ -2,6 +2,13 @@
 
 A curation list from GenAI Engineering Thailand community.
 
+## Join our community
+Let's connect and make our community stay alive. Please read our contribution guidelines for detailed contribution workflow.  For general questions and public discussions, please join our community.
+
+[![](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/groups/934987264745635)
+
+All contributions are greatly appreciated :heart:
+
 ## Knowledge Sharings
 | Date      | Knowledge Content |
 | ----------- | ----------- |
