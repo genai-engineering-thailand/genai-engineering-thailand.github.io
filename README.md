@@ -12,7 +12,7 @@ All contributions are greatly appreciated :heart:
 ## Knowledge Sharings
 | Date      | Knowledge Content |
 | ----------- | ----------- |
-| 17 May 2024 | [Self-hosted LLM on GCP](./knowledge-sharing/#0%20-%20Self-hosted%20LLM%20on%20GCP/README.md)  |
+| 17 May 2024 | [Self-hosted LLM on GCP](/knowledge-sharing/#0%20-%20Self-hosted%20LLM%20on%20GCP/README.md)  |
 
 
 ## Awesome Curations
