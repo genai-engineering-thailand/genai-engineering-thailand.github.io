@@ -1,0 +1,66 @@
+site_name: GenAI Engineering Thailand | Awesome Knowledge
+site_description: an active generative ai community based in Thailand.
+
+# Repository
+repo_name: awesome-knowledge
+repo_url: https://github.com/genai-engineering-thailand/awesome-knowledge
+edit_uri: ""
+
+docs_dir: docs/
+
+theme:
+  name: material
+  language: en
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.tabs
+    - navigation.tracking
+    - content.code.annotate
+    - navigation.top
+  icon:
+    repo: fontawesome/brands/github-alt
+  palette:
+    # Palette toogle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      accent: purple
+      primary: black
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+      accent: purple
+      primary: black
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.snippets  # render markdown in markdown
+  - toc:
+      permalink: True
+      toc_depth: 4
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+
+# Page tree
+nav:
+- Home: "index.md"
+- Knowledge Sharing:
+    - Content Index: "knowledge-sharing/content_index.md"
+    - Self-hosted LLM On GCP: "knowledge-sharing/0 - Self-hosted LLM on GCP/README.md"
+- Content Curations: "awesome_curation.md"
