@@ -5,7 +5,7 @@ A curation list from GenAI Engineering Thailand community.
 ## Knowledge Sharings
 | Date      | Knowledge Content |
 | ----------- | ----------- |
-| 17 May 2024 | [Self-hosted LLM on GCP](./knowledge-sharing/#0%20-%20Self-hosted%20LLM%20on%20GCP/)  |
+| 17 May 2024 | [Self-hosted LLM on GCP](./knowledge-sharing/#0%20-%20Self-hosted%20LLM%20on%20GCP/README.md)  |
 
 
 ## Awesome Curations
