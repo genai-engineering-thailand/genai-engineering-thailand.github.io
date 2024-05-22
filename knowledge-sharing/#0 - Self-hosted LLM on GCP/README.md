@@ -3,11 +3,11 @@
 ![image info](event_cover.png)
 
 
-#### Resource
+### Resource
 [Video](https://youtu.be/bLSB1-iEct0) | [Material](material) | [Knowledge Summary](https://txt.lukkiddd.com/genai-engineer-thailand-0/)
 
 
-#### Summary 
+### Summary 
 
 *The following content is summarized by Gemini.*
 
