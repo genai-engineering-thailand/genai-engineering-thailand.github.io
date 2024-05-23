@@ -65,10 +65,10 @@ markdown_extensions:
         !!python/name:material.extensions.emoji.to_svg
   
 
-
 plugins:
   - search
-  - macros
+  - macros:
+      on_undefined: strict
   - include_dir_to_nav:
       #file_pattern: '.*\.pdf$'
       recurse: true
