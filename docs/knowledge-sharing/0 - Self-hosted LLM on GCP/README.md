@@ -1,10 +1,10 @@
 # Self-hosted LLM on GCP
 
-![image info](event_cover.png)
+![image info](./event_cover.png)
 
 
 ### Resource
-[Video](https://youtu.be/bLSB1-iEct0) | [Material](./material/) | [Knowledge Summary](https://txt.lukkiddd.com/genai-engineer-thailand-0/)
+[Video](https://youtu.be/bLSB1-iEct0) | [Material](./material/content.md) | [Knowledge Summary](https://txt.lukkiddd.com/genai-engineer-thailand-0/)
 
 
 ### Summary 

@@ -3,7 +3,19 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-A curation list from GenAI Engineering Thailand community.
+A knowledge base from GenAI Engineering Thailand community. This repository contains valuable resources for various aspects of Generative AI development.
+
+## Knowledge Sharing
+
+Our community has a regular engineering deep dive session. You can find out events schedule from this xx page.
+
+If you missed our live streaming, here are [recordings and materials](./docs/knowledge-sharing/content_index.md).
+
+
+## Awesome Curation
+
+Find out a collection of useful curation portals [here](./docs/awesome_curation.md).
+
 
 [comment]: # (--8<-- [start:join-our-community])
 
@@ -16,24 +28,3 @@ Let's connect and make our community stay alive. Please read our [contribution g
 All contributions are greatly appreciated :heart:
 
 [comment]: # (--8<-- [end:join-our-community])
-
-[comment]: # (--8<-- [start:ks])
-
-## Knowledge Sharings
-
-| Date      | Knowledge Content |
-| ----------- | ----------- |
-| 17 May 2024 | [Self-hosted LLM on GCP](/docs/knowledge-sharing/0%20-%20Self-hosted%20LLM%20on%20GCP/README.md)  |
-
-[comment]: # (--8<-- [end:ks])
-
-[comment]: # (--8<-- [start:awesome-curation])
-
-## Awesome Curations
-
-The following list consists of awesome portals related to LLM and Generative AI in various aspects.
-
-- [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM/tree/main)
-- [LLMsPracticalGuide](https://github.com/Mooler0410/LLMsPracticalGuide)
-
-[comment]: # (--8<-- [end:awesome-curation])

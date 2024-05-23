@@ -1,12 +1,14 @@
-site_name: GenAI Engineering Thailand | Awesome Knowledge
-site_description: an active generative ai community based in Thailand.
+site_name: GenAI Engineering Thailand
+site_description: an active Generative AI community based in Thailand.
+site_author: GenAI Engineering Thailand
 
 # Repository
 repo_name: awesome-knowledge
 repo_url: https://github.com/genai-engineering-thailand/awesome-knowledge
-edit_uri: ""
+edit_uri: "blob/main/docs/"
 
 docs_dir: docs/
+use_directory_urls: true
 
 theme:
   name: material
@@ -40,6 +42,10 @@ theme:
       primary: black
 
 markdown_extensions:
+  - toc:
+        permalink: True
+        toc_depth: 4
+        title: Page Sections
   - attr_list
   - pymdownx.critic
   - pymdownx.caret
@@ -47,12 +53,28 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - pymdownx.snippets  # render markdown in markdown
-  - toc:
-      permalink: True
-      toc_depth: 4
+  - pymdownx.pathconverter:
+      base_path: 'awesome-knowledge' # default: ''
+      relative_path: '' # default ''
+      absolute: false # default: false
+      tags: 'a script img link object embed'
+  - pymdownx.emoji:
+      emoji_index:
+        !!python/name:material.extensions.emoji.twemoji
+      emoji_generator:
+        !!python/name:material.extensions.emoji.to_svg
+  
+
 
 plugins:
   - search
+  - macros
+  - include_dir_to_nav:
+      #file_pattern: '.*\.pdf$'
+      recurse: true
+      flat: false
+      file_name_as_title: false
+      include_empty_dir: false
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago
@@ -62,5 +84,6 @@ nav:
 - Home: "index.md"
 - Knowledge Sharing:
     - Content Index: "knowledge-sharing/content_index.md"
-    - Self-hosted LLM On GCP: "knowledge-sharing/0 - Self-hosted LLM on GCP/README.md"
+    - Self-hosted LLM On GCP: 
+      - "knowledge-sharing/0 - Self-hosted LLM on GCP"
 - Content Curations: "awesome_curation.md"
