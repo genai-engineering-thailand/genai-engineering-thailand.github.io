@@ -5,11 +5,11 @@ description = ""
 authors = ["Your Name <you@example.com>"]
 license = "MIT"
 readme = "README.md"
+package-mode = false
 packages = [{include = "awesome_knowledge"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-
 
 [tool.poetry.group.docs.dependencies]
 mkdocs = "^1.6.0"
