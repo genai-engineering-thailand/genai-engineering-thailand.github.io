@@ -7,10 +7,11 @@ A knowledge base from GenAI Engineering Thailand community. This repository cont
 
 ## Setup 
 
-To host a document site from this repo locally, use the commands below. Ensure you have Python `3.10` installed in your preferred environment.
+To host a document site from this repo locally, see [Makefile](./Makefile). Ensure you have `Python>=3.10` installed in your preferred environment.
+
+When in doubt, use the following commands.
 
 ```bash
-
 $make deps
 $make serve
 ```
