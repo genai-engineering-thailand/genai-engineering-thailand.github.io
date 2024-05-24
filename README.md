@@ -1,9 +1,16 @@
+<div align="center">
+
 # Awesome-Knowledge
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![main](https://github.com/genai-engineering-thailand/awesome-knowledge/actions/workflows/main.yml/badge.svg)](https://github.com/genai-engineering-thailand/awesome-knowledge/actions/workflows/main.yml)
+
+:link: [**Document Portal**](https://genai-engineering-thailand.github.io/awesome-knowledge/)
 
 A knowledge base from GenAI Engineering Thailand community. This repository contains valuable resources for various aspects of Generative AI development.
+</div>
 
 ## Setup 
 
@@ -12,8 +19,8 @@ To host a document site from this repo locally, see [Makefile](./Makefile). Ensu
 When in doubt, use the following commands.
 
 ```bash
-$make deps
-$make serve
+make deps
+make serve
 ```
 
 ## Knowledge Sharing
