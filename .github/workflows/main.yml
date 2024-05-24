@@ -13,9 +13,13 @@ jobs:
   docs-pipeline:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -24,6 +28,7 @@ jobs:
 
       - name: Prepare dependencies
         run: make deps
-
+      
+      - run: git config user.name 'github-actions[bot]' && git config user.email 'github-actions[bot]@users.noreply.github.com'
       - name: Deploy to gh-pages branch
-        run: poetry run mkdocs gh-deploy --force
+        run: poetry run mkdocs gh-deploy
