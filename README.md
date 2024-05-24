@@ -5,6 +5,16 @@
 
 A knowledge base from GenAI Engineering Thailand community. This repository contains valuable resources for various aspects of Generative AI development.
 
+## Setup 
+
+To host a document site from this repo locally, use the commands below. Ensure you have Python `3.10` installed in your preferred environment.
+
+```bash
+
+$make deps
+$make serve
+```
+
 ## Knowledge Sharing
 
 Our community has a regular engineering deep dive session. You can find out events schedule from this xx page.
