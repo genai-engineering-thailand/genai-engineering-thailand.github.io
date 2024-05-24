@@ -15,6 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       pages: write
+      contents: write
 
     steps:
       - uses: actions/checkout@v4
