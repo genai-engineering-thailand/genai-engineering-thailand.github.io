@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "awesome-knowledge"
+version = "0.1.0"
+description = ""
+authors = ["GenAI Engineering Thailand Admin Team"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+packages = [{include = "awesome_knowledge"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.6.0"
+mkdocs-material = "^9.5.24"
+mkdocs-include-dir-to-nav = "^1.2.0"
+pymdown-extensions = "^10.8.1"
+markdown-include = "^0.8.1"
+mkdocs-git-revision-date-localized-plugin = "^1.2.5"
+mkdocs-macros-plugin = "^1.0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

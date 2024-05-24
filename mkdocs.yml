@@ -1,0 +1,89 @@
+site_name: GenAI Engineering Thailand
+site_description: an active Generative AI community based in Thailand.
+site_author: GenAI Engineering Thailand
+
+# Repository
+repo_name: awesome-knowledge
+repo_url: https://github.com/genai-engineering-thailand/awesome-knowledge
+edit_uri: "blob/main/docs/"
+
+docs_dir: docs/
+use_directory_urls: true
+
+theme:
+  name: material
+  language: en
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.tabs
+    - navigation.tracking
+    - content.code.annotate
+    - navigation.top
+  icon:
+    repo: fontawesome/brands/github-alt
+  palette:
+    # Palette toogle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      accent: purple
+      primary: black
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+      accent: purple
+      primary: black
+
+markdown_extensions:
+  - toc:
+        permalink: True
+        toc_depth: 4
+        title: Page Sections
+  - attr_list
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.snippets  # render markdown in markdown
+  - pymdownx.pathconverter:
+      base_path: 'awesome-knowledge' # default: ''
+      relative_path: '' # default ''
+      absolute: false # default: false
+      tags: 'a script img link object embed'
+  - pymdownx.emoji:
+      emoji_index:
+        !!python/name:material.extensions.emoji.twemoji
+      emoji_generator:
+        !!python/name:material.extensions.emoji.to_svg
+  
+
+plugins:
+  - search
+  - macros:
+      on_undefined: strict
+  - include_dir_to_nav:
+      #file_pattern: '.*\.pdf$'
+      recurse: true
+      flat: false
+      file_name_as_title: false
+      include_empty_dir: false
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+
+# Page tree
+nav:
+- Home: "index.md"
+- Knowledge Sharing:
+    - Content Index: "knowledge-sharing/content_index.md"
+    - Self-hosted LLM On GCP: 
+      - "knowledge-sharing/0 - Self-hosted LLM on GCP"
+- Content Curations: "awesome_curation.md"
