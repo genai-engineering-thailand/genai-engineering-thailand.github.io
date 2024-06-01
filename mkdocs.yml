@@ -1,10 +1,10 @@
 site_name: GenAI Engineering Thailand
-site_description: an active Generative AI community based in Thailand.
+site_description: An active Generative AI community based in Thailand.
 site_author: GenAI Engineering Thailand
 
 # Repository
-repo_name: awesome-knowledge
-repo_url: https://github.com/genai-engineering-thailand/awesome-knowledge
+repo_name: genai-engineering-thailand.github.io
+repo_url: https://github.com/genai-engineering-thailand/genai-engineering-thailand.github.io
 edit_uri: "blob/main/docs/"
 
 docs_dir: docs/
