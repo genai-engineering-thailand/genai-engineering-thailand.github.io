@@ -23,9 +23,9 @@ git checkout -b feature/your-feature
 
 2. Implement your changes or improvements, including code, information, and any form of material you find suitable. You may create new knowledge category, but keep it organized and aligned with others.
 
-3. Feel free to include notebooks, markdown article, images, diagrams (preferrbly mermaid), or any relevant media to support the explanation.
+3. Feel free to include notebooks, markdown article, images, diagrams (preferrbly mermaid), or any relevant media to support the explanation. Using submodules approach is applicable.
 
-4. Using submodules approach is applicable. Ensure the material can be rendered in our website properly using MKDocs.
+4. Ensure the material can be rendered in our website properly using MKDocs.
 
 ### Committing Changes 📝
 
