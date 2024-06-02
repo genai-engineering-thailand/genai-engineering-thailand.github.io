@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "awesome-knowledge"
+name = "genai-engineering-thailand.github.io"
 version = "0.1.0"
 description = ""
 authors = ["GenAI Engineering Thailand Admin Team"]
 license = "MIT"
 readme = "README.md"
 package-mode = false
-packages = [{include = "awesome_knowledge"}]
+packages = [{include = "genai-engineering-thailand.github.io"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"

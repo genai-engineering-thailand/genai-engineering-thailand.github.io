@@ -1,15 +1,15 @@
 <div align="center">
 
-# Awesome-Knowledge
+# GenAI Engineering Thailand
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![main](https://github.com/genai-engineering-thailand/awesome-knowledge/actions/workflows/main.yml/badge.svg)](https://github.com/genai-engineering-thailand/awesome-knowledge/actions/workflows/main.yml)
 
-:link: [**Document Portal**](https://genai-engineering-thailand.github.io/awesome-knowledge/)
+:link: [**Web Portal**](https://genai-engineering-thailand.github.io)
 
-A knowledge base from GenAI Engineering Thailand community. This repository contains valuable resources for various aspects of Generative AI development.
+A knowledge base of GenAI Engineer Thailand community. This repository contains valuable resources for various aspects of Generative AI development.
 </div>
 
 ## Setup 
