@@ -43,27 +43,24 @@ theme:
 
 markdown_extensions:
   - toc:
-        permalink: True
-        toc_depth: 4
-        title: Page Sections
+      permalink: True
+      toc_depth: 4
+      title: Page Sections
   - attr_list
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-  - pymdownx.snippets  # render markdown in markdown
+  - pymdownx.snippets # render markdown in markdown
   - pymdownx.pathconverter:
-      base_path: 'awesome-knowledge' # default: ''
-      relative_path: '' # default ''
+      base_path: "awesome-knowledge" # default: ''
+      relative_path: "" # default ''
       absolute: false # default: false
-      tags: 'a script img link object embed'
+      tags: "a script img link object embed"
   - pymdownx.emoji:
-      emoji_index:
-        !!python/name:material.extensions.emoji.twemoji
-      emoji_generator:
-        !!python/name:material.extensions.emoji.to_svg
-  
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
   - search
@@ -81,9 +78,11 @@ plugins:
 
 # Page tree
 nav:
-- Home: "index.md"
-- Knowledge Sharing:
-    - Content Index: "knowledge-sharing/content_index.md"
-    - Self-hosted LLM On GCP: 
-      - "knowledge-sharing/0 - Self-hosted LLM on GCP"
-- Content Curations: "awesome_curation.md"
+  - Home: "index.md"
+  - Knowledge Sharing:
+      - Content Index: "knowledge-sharing/content_index.md"
+      - Self-hosted LLM On GCP:
+          - "knowledge-sharing/0 - Self-hosted LLM on GCP"
+      - PDF-to-Text - A nightmare that never ends:
+          - "knowledge-sharing/1 - PDF-to-Text - A nightmare that never ends"
+  - Content Curations: "awesome_curation.md"
