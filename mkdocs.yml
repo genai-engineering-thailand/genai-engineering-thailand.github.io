@@ -83,6 +83,8 @@ nav:
       - Content Index: "knowledge-sharing/content_index.md"
       - Self-hosted LLM On GCP:
           - "knowledge-sharing/0 - Self-hosted LLM on GCP"
+      - PDF-to-Text - A nightmare that never ends:
+          - "knowledge-sharing/1 - PDF-to-Text - A nightmare that never ends"
       - Introduction to Ollama:
           - "knowledge-sharing/2 - Introduction to Ollama"
   - Content Curations: "awesome_curation.md"
