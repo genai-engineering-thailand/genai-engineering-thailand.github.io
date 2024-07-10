@@ -1,0 +1,63 @@
+name: ci-main
+on:
+  workflow_dispatch:
+  pull_request:
+    types: [opened]
+    branches:
+      - main
+
+env:
+  PYTHON_VERSION: "3.10"
+  POETRY_VERSION: "1.8.3"
+  POETRY_URL: https://install.python-poetry.org
+  
+jobs:
+  docs-pipeline:
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set Bot
+        run: git config user.name 'github-actions[bot]' && git config user.email 'github-actions[bot]@users.noreply.github.com'
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Cache Python Poetry cache
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pypoetry
+          key: poetry-cache-${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-${{ env.POETRY_VERSION }}
+          restore-keys: |
+            ${{ runner.os }}-poetry-
+      
+      # virtualenv cache should depends on OS, Python version and `poetry.lock` (and optionally workflow files).
+      - name: Cache Python Packages
+        uses: actions/cache@v3
+        with:
+          path: ~/.local
+          key: poetry-local-${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-${{ hashFiles('**/poetry.lock') }}-${{ hashFiles('.github/workflows/*.yml') }}
+          restore-keys: |
+            ${{ runner.os }}-poetry-
+      
+      - name: Install Poetry ${{ env.POETRY_VERSION }}
+        run: |
+          curl -sSL ${{ env.POETRY_URL }} | python - --version ${{ env.POETRY_VERSION }}
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+
+      - name: Prepare dependencies
+        run: make deps
+
+      - name: Build dry run
+        run: make deps
+      
+      - name: Deploy to gh-pages branch
+        run: poetry run mkdocs gh-deploy
