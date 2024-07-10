@@ -4,7 +4,7 @@
 
 ### Resource
 
-[Video](https://youtu.be/WmH4BSZwqqE) | [Material](./material/content.md) | [Knowledge Summary](https://txt.lukkiddd.com/introduction-to-ollama/)
+[Video](https://youtu.be/WmH4BSZwqqE) | [Material](./material/content.md) | [Knowledge Summary](https://txt.lukkiddd.com/build-ai-app-with-vercel-sdk/)
 
 ### Summary
 
