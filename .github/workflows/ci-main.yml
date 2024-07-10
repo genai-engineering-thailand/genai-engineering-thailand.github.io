@@ -57,7 +57,7 @@ jobs:
         run: make deps
 
       - name: Build dry run
-        run: make deps
+        run: make build-dry
       
       - name: Deploy to gh-pages branch
         run: poetry run mkdocs gh-deploy
