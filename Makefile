@@ -13,11 +13,11 @@ deps:
 	poetry install -v --with docs
 
 serve:
-	mkdocs serve
+	poetry mkdocs serve
 
 build:
-	mkdocs build
+	poetry mkdocs build
 
 build-dry:
-	mkdocs build --site-dir="temp"
+	poetry mkdocs build --site-dir="temp"
 	if [ -d "temp"]; then rm --recursive temp; fi
