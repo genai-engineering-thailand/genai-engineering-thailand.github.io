@@ -87,4 +87,6 @@ nav:
           - "knowledge-sharing/1 - PDF-to-Text - A nightmare that never ends"
       - Introduction to Ollama:
           - "knowledge-sharing/2 - Introduction to Ollama"
+      - Build AI App with Vercel SDK:
+          - "knowledge-sharing/3 - Build AI App with Vercel SDK"
   - Content Curations: "awesome_curation.md"
