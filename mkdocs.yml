@@ -13,6 +13,8 @@ use_directory_urls: true
 theme:
   name: material
   language: en
+  logo: assets/logo-genai-engineer-thailand.png
+  favicon: assets/logo-genai-engineer-thailand.png
   features:
     - search.suggest
     - search.highlight
