@@ -89,4 +89,6 @@ nav:
           - "knowledge-sharing/2 - Introduction to Ollama"
       - Build AI App with Vercel SDK:
           - "knowledge-sharing/3 - Build AI App with Vercel SDK"
+      - Monitoring and Observability in LLM Application:
+          - "knowledge-sharing/4 - Monitoring and Observability in LLM Application"
   - Content Curations: "awesome_curation.md"
