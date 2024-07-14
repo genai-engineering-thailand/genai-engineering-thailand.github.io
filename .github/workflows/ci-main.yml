@@ -1,8 +1,8 @@
-name: main
+name: ci-main
 on:
   workflow_dispatch:
   pull_request:
-    types: [closed]
+    types: [opened]
     branches:
       - main
 
@@ -13,7 +13,6 @@ env:
   
 jobs:
   docs-pipeline:
-    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     permissions:
       pages: write
@@ -26,7 +25,7 @@ jobs:
 
       - name: Set Bot
         run: git config user.name 'github-actions[bot]' && git config user.email 'github-actions[bot]@users.noreply.github.com'
-        
+      
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -53,6 +52,10 @@ jobs:
         run: |
           curl -sSL ${{ env.POETRY_URL }} | python - --version ${{ env.POETRY_VERSION }}
           echo "$HOME/.local/bin" >> $GITHUB_PATH
-      
-      - name: Deploy to gh-pages branch
-        run: poetry run mkdocs gh-deploy
+
+      - name: Prepare dependencies
+        run: make deps
+
+      - name: Build dry run
+        run: make build-dry
+
