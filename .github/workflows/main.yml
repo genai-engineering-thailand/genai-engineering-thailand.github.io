@@ -53,6 +53,9 @@ jobs:
         run: |
           curl -sSL ${{ env.POETRY_URL }} | python - --version ${{ env.POETRY_VERSION }}
           echo "$HOME/.local/bin" >> $GITHUB_PATH
+
+      - name: Prepare dependencies
+        run: make deps
       
       - name: Deploy to gh-pages branch
         run: poetry run mkdocs gh-deploy
