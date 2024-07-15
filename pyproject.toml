@@ -10,6 +10,8 @@ packages = [{include = "genai-engineering-thailand.github.io"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+markdown-extensions = "^0.0.1"
+mkdocs-jupyter = "^0.24.8"
 
 [tool.poetry.group.docs.dependencies]
 mkdocs = "^1.6.0"

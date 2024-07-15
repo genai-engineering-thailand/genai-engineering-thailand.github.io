@@ -50,11 +50,15 @@ markdown_extensions:
       title: Page Sections
   - attr_list
   - pymdownx.critic
+  - pymdownx.inlinehilite
+  - pymdownx.details
   - pymdownx.caret
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
   - pymdownx.snippets # render markdown in markdown
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.pathconverter:
       base_path: "awesome-knowledge" # default: ''
       relative_path: "" # default ''
@@ -63,6 +67,8 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.arithmatex:
+      generic: true
 
 plugins:
   - search
@@ -77,6 +83,10 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago
+  - mkdocs-jupyter:
+          include: ["*.ipynb"]
+          execute: false
+          ignore_h1_titles: True
 
 # Page tree
 nav:
@@ -93,4 +103,11 @@ nav:
           - "knowledge-sharing/3 - Build AI App with Vercel SDK"
       - Monitoring and Observability in LLM Application:
           - "knowledge-sharing/4 - Monitoring and Observability in LLM Application"
+      - Optimizing LLM with LoRA:
+          - "knowledge-sharing/5 - Optimizing LLM with LoRA"
+          - notebooks:
+            - 1.Generate_json: knowledge-sharing/5 - Optimizing LLM with LoRA/material/fintune-llm-with-lora/01.Generate_json.ipynb
+            - 2.Json_to_text: knowledge-sharing/5 - Optimizing LLM with LoRA/material/fintune-llm-with-lora/02.Json_to_text.ipynb
+            - 3.Finetuning: knowledge-sharing/5 - Optimizing LLM with LoRA/material/fintune-llm-with-lora/03.Finetuning.ipynb
+            - 4.Evaluate: knowledge-sharing/5 - Optimizing LLM with LoRA/material/fintune-llm-with-lora/04.Evaluate.ipynb
   - Content Curations: "awesome_curation.md"
