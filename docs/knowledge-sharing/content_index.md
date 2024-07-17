@@ -8,6 +8,8 @@
 | 23 June 2024 | [Build AI App with Vercel SDK](3 - Build AI App with Vercel SDK/README.md)  |
 | 28 June 2024 | [Monitoring and Observability in LLM Application](4 - Monitoring and Observability in LLM Application/README.md)  |
 | 6 July 2024 | [Optimizing LLM with LoRA](5 - Optimizing LLM with LoRA/README.md)  |
+| 8 July 2024 | [Automate Data Labelling Task With LLM-based Agentic AI](6 - Automate Data Labelling Task With LLM-based Agentic AI/README.md)  |
+
 
 
 
