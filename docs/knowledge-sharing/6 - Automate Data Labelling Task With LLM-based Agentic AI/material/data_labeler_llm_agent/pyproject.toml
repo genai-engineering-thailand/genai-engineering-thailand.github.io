@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "data_labeler_llm_agent"
+version = "0.1.0"
+description = "A project to demonstrate basic usage of LLM-based agentic AI"
+authors = ["nathnx <nathaniel.alt7@github.com>"]
+readme = "README.md"
+#packages = [{include = "data_labeler_llm_agent"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^1.35.10"
+load-dotenv = "^0.1.0"
+ipykernel = "^6.29.5"
+langchain-community = "^0.2.6"
+duckduckgo-search = "^6.1.9"
+langchain-openai = "^0.1.14"
+langchainhub = "^0.1.20"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

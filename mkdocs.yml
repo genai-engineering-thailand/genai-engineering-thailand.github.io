@@ -110,4 +110,8 @@ nav:
             - 2.Json_to_text: knowledge-sharing/5 - Optimizing LLM with LoRA/material/fintune-llm-with-lora/02.Json_to_text.ipynb
             - 3.Finetuning: knowledge-sharing/5 - Optimizing LLM with LoRA/material/fintune-llm-with-lora/03.Finetuning.ipynb
             - 4.Evaluate: knowledge-sharing/5 - Optimizing LLM with LoRA/material/fintune-llm-with-lora/04.Evaluate.ipynb
+      - Automate Data Labelling Task With LLM-based Agentic AI:
+          - "knowledge-sharing/6 - Automate Data Labelling Task With LLM-based Agentic AI"
+          - notebooks:
+            - Build Agent: knowledge-sharing/6 - Automate Data Labelling Task With LLM-based Agentic AI/material/data_labeler_llm_agent/agent_llm.ipynb
   - Content Curations: "awesome_curation.md"
