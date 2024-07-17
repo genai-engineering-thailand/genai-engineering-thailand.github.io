@@ -15,7 +15,7 @@ git clone https://github.com/genai-engineering-thailand/genai-engineering-thaila
 Create a new branch for your contribution.
 
 ```sh
-git checkout -b feature/your-feature
+git checkout -b docs/your-docs
 ```
 
 ### Making Changes 🛠️
@@ -32,13 +32,13 @@ git checkout -b feature/your-feature
 1. Commit your changes with a descriptive commit message. We encourage you to use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
 ```sh
-git commit -m "feat: add ABC content to docs folder"
+git commit -m "docs: add ABC content to docs folder"
 ```
 
 2. Push your changes to your forked repository.
 
 ```sh
-git push origin feature/your-feature
+git push origin docs/your-docs
 ```
 
 ### Creating a Pull Request (PR) 📥
