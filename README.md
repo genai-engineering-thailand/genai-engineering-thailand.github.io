@@ -25,7 +25,7 @@ make serve
 
 ## Knowledge Sharing
 
-Our community has a regular engineering deep dive session. You can find out events schedule from this xx page.
+Our community has a regular engineering deep dive session.
 
 If you missed our live streaming, here are [recordings and materials](./docs/knowledge-sharing/content_index.md).
 
@@ -35,8 +35,6 @@ If you missed our live streaming, here are [recordings and materials](./docs/kno
 Find out a collection of useful curation portals [here](./docs/awesome_curation.md).
 
 
-[comment]: # (--8<-- [start:join-our-community])
-
 ## Join our community
 
 Let's connect and make our community stay alive. Please read our [contribution guidelines](CONTRIBUTE.md) about detailed workflow. For general questions or updates, public discussions and event appointments, please join our community.
@@ -45,4 +43,3 @@ Let's connect and make our community stay alive. Please read our [contribution g
 
 All contributions are greatly appreciated :heart:
 
-[comment]: # (--8<-- [end:join-our-community])
