@@ -1,4 +1,4 @@
-# Optimizing LLM with LoRA
+# Automate Data Labeling Task With LLM-based Agentic AI
 
 ![image info](./event_cover.png)
 
